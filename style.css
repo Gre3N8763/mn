@@ -3,19 +3,36 @@ body {
     display: flex;           
     justify-content: center; 
     align-items: center;  
-  }
+ }
+
 #icon_SB{
     position: relative;
-    color:aliceblue;
-    padding: 2px;
-    height: 13.8px;
+    color:rgb(255, 255, 255);
+    padding: 10px 10px;
+    height: 25px;
 }
 
 input[type="text"]{
+    background-color:rgb(77,77,77);
     position: relative;
     border: none;
     outline: none;
-    height: 18px;
     border-top-left-radius:3px;
     border-bottom-left-radius:3px;
+    height: 33px;
+    width: 300px;
+    font-size: 20px;
+}
+
+button{
+    background-color:rgb(247,89,121);
+    position: relative;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-top-right-radius:3px;
+    border-bottom-right-radius:3px;
+    margin: -5px;
+    height: 35px;
+    padding: 2.5px 0px 29.5px 0px;
 }
