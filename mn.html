@@ -7,17 +7,23 @@
         <script src="https://kit.fontawesome.com/c35bfc0813.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div align="center" style="margin-top:300px; padding:0px 60px;" >
-            <div style="padding:0px 60px;">
-                <img src="N.png" width=400/>
+        <div  align="center" style="margin-top:200px; padding:0px 100px;" >
+            <div style="padding:0px 200px;">
+                <img src="N.png" width=200/>
             </div>
-        </br>
-            <div style="padding:50px 0px; height:100%; border-radius:10px; width:100%; background-color:rgb(31,31,31)">
-                <input type="text" placeholder="神秘數字" id="num">
-                <button onclick="myFunction()"><i class="fa-solid fa-magnifying-glass" id="icon_SB"></i></button>
+        <div class="container" style="padding:40px 0px; height:200%; border-radius:10px; width:80%; background-color:rgb(31,31,31)">
+            <div class="search-box" >
+                <input
+                    type="text"
+                    class="search"
+                    placeholder="神秘數字"
+                    id="n"
+                />
+                <button onclick="myFunction()" type="submit" class="search-btn">
+                    <i class="fa-solid fa-magnifying-glass" id="icon_SB"></i>
+                </button>
             </div>
         </div>
-        
     </body>
 </html>
 <script src="search.js"></script>

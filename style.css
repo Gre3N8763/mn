@@ -6,33 +6,51 @@ body {
  }
 
 #icon_SB{
-    position: relative;
     color:rgb(255, 255, 255);
-    padding: 10px 10px;
-    height: 25px;
+
 }
 
-input[type="text"]{
-    background-color:rgb(77,77,77);
+.contariner{
+    padding:40px 0px; 
+    height:200%; 
+    border-radius:10px; 
+    width:80%; 
+    background-color:rgb(31,31,31);
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50,-50);
+}
+
+.search-box{
+    width: 60%;
     position: relative;
-    border: none;
+    display: flex;
+}
+
+.search{
+    width: 100%;
+    padding: 5px;
+    height: 24px;
+    background-color:rgb(77,77,77);
     outline: none;
+    border: none;
     border-top-left-radius:3px;
     border-bottom-left-radius:3px;
-    height: 33px;
-    width: 300px;
-    font-size: 20px;
+    font-size: 15px;
+    color: rgb(201,213,217);
 }
 
-button{
+.search-btn{
+    width: 40px;
+    height: 34px;
     background-color:rgb(247,89,121);
-    position: relative;
-    cursor: pointer;
     border: none;
-    outline: none;
     border-top-right-radius:3px;
     border-bottom-right-radius:3px;
-    margin: -5px;
-    height: 35px;
-    padding: 2.5px 0px 29.5px 0px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: -2px;
 }
