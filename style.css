@@ -11,11 +11,6 @@ body {
 }
 
 .contariner{
-    padding:40px 0px; 
-    height:200%; 
-    border-radius:10px; 
-    width:80%; 
-    background-color:rgb(31,31,31);
     width: 30%;
     position: absolute;
     top: 50%;
@@ -40,12 +35,17 @@ body {
     border-bottom-left-radius:3px;
     font-size: 15px;
     color: rgb(201,213,217);
+    transition: 0.2s background-color;
+}
+
+.search:hover{
+    background-color:rgb(102,102,102);
 }
 
 .search-btn{
     width: 40px;
     height: 34px;
-    background-color:rgb(247,89,121);
+    background-color:rgb(243,47,86);
     border: none;
     border-top-right-radius:3px;
     border-bottom-right-radius:3px;
@@ -53,4 +53,9 @@ body {
     cursor: pointer;
     font-size: 20px;
     margin-left: -2px;
+    transition: 0.2s background-color;
+}
+
+.search-btn:hover{
+    background-color: rgb(247,89,121);
 }
